@@ -46,7 +46,7 @@ RUN \
 
 # Generate and install favicons.
 RUN \
-    APP_ICON_URL=https://imagepng.org/wp-content/uploads/2017/08/minecraft-icone-icon.png && \
+    APP_ICON_URL=https://github.com/acaranta/docker-minecraft-client/raw/master/minecraft-icone-icon.png && \
     install_app_icon.sh "$APP_ICON_URL"
 
 # Add files.
