@@ -25,13 +25,15 @@ where :
 * 5800-5900 ports are VNC ports
 
 ## Access it
-just use your regular web browser to reach : http://<DOCKERHOST>:5800 
-and bob's your uncle :)
+just use your regular web browser to reach : 
+`http://<YOURDOCKERHOST>:5800`
+and voila !
+
 ### Gameplay
-NB : For mouse to work "properly", in Minecraft, go to :
-`Options->Controls->Mouse Settings`
-Make sure Raw input is OFF
-and decrease Sensitivity to 50% (and adjust to your liking :) )
+NB : For mouse to work "properly", in Minecraft :
+* Go to : `Options->Controls->Mouse Settings`
+* Make sure `Raw input` is OFF
+* Decrease Sensitivity to 50% (and adjust to your liking :) )
 
 # SECURITY NOTICE
 This is indeed a proof of concept and overall it should not used (if useable anyway lol) because :
