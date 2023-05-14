@@ -21,7 +21,7 @@ docker run -d --name mcclient -p 5800:5800 -p 5900:5900 -v <LOCALPATHDIR>:/confi
 ```
 
 where :
-* LOCALPATHFIR is the local directory where minceracft launcher/login data will be saved between sessions
+* LOCALPATHDIR is the local directory where minceracft launcher/login data will be saved between sessions
 * 5800-5900 ports are VNC ports
 
 ## Access it
