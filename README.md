@@ -27,3 +27,9 @@ where :
 ## Access it
 just use your regular web browser to reach : http://<DOCKERHOST>:5800 
 and bob's your uncle :)
+
+# Word of Warning
+This is indeed a proof of concept and overall it should not used (if useable anyway lol) because :
+* this is http only, traffic is nt encrypted
+* there is no password to accss the vnc display
+* Files will be stored on your machine, but you are responsible for securing the local storage
