@@ -1,8 +1,29 @@
 # Docker container for Minecraft Client
 
 This is a Docker container for [Minecraft Java Client](https://www.minecraft.net).
+This is a proof of concept ^^
 
 The GUI of the application is accessed through a modern web browser (no installation or configuration needed on client side) or via any VNC client.
 
 ---
 
+# How to run it
+## First build the container
+```
+git clone https://github.com/acaranta/docker-minecraft-client.git
+cd docker-minecraft-client
+git build -t mcclient .
+```
+
+## Then Run it
+```
+docker run -d --name mcclient -p 5800:5800 -p 5900:5900 -v <LOCALPATHDIR>:/config/.minecraft mcclient
+```
+
+where :
+* LOCALPATHFIR is the local directory where minceracft launcher/login data will be saved between sessions
+* 5800-5900 ports are VNC ports
+
+## Access it
+just use your regular web browser to reach : http://<DOCKERHOST>:5800 
+and bob's your uncle :)
