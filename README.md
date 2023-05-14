@@ -19,7 +19,11 @@ git build -t mcclient .
 ```
 docker run -d --name mcclient -p 5800:5800 -p 5900:5900 -v <LOCALPATHDIR>:/config/.minecraft mcclient
 ```
-
+## Or just run it
+Or, if you don't want to build it, this repository get build after each commit into docker hub : https://hub.docker.com/r/acaranta/docker-minecraft-client
+```
+docker run -d --name mcclient -p 5800:5800 -p 5900:5900 -v <LOCALPATHDIR>:/config/.minecraft acaranta/docker-minecraft-client
+```
 where :
 * LOCALPATHDIR is the local directory where minceracft launcher/login data will be saved between sessions
 * 5800-5900 ports are VNC ports
