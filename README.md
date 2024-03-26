@@ -12,7 +12,7 @@ The GUI of the application is accessed through a modern web browser (no installa
 ```
 git clone https://github.com/acaranta/docker-minecraft-client.git
 cd docker-minecraft-client
-git build -t mcclient .
+docker build -t mcclient .
 ```
 
 ## Then Run it
